@@ -1,13 +1,23 @@
-from distutils.core import setup
-setup(
-    name='macondo',
-    packages=['macondo'],
-    version='0.1',
-    description='A random test lib',
+
+import setuptools
+
+with open('README.md', 'r') as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name='gabo',
+    version='0.0.0.1',
     author='Andres Lujan',
     author_email='info@andresroot.co',
-    url='https://github.com/MacondoPress/macondo/',
-    download_url='https://github.com/macondo/macondo/archive/0.1.tar.gz',
+    description='A CMS management tool',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    url='https://github.com/MacondoSystems/gabo/',
+    packages=['gabo'],
     keywords=['cms', 'django', 'privacy'],
-    classifiers=[],
+    classifiers=(
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+        'Operating System :: OS Independent',
+    ),
 )

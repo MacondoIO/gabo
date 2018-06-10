@@ -1,5 +1,9 @@
-# PyPi
+# Pypi
 .pypirc
+buid/
+dist/
+gabo.egg-info/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
