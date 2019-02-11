@@ -1,3 +1,3 @@
 # gabo
 
-A microsite generator
+A magically-reallistic microsite generator
